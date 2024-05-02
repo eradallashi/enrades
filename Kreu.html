@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ENRADES</title>
+
+  <!-- Font Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .header-text {
+      text-align: center;
+      height: 30px;
+      font-family: sans-serif;
+      font-size: 13px;
+    }
+
+    .hr {
+      margin-top: 12px;
+      border: 1px solid pink;
+      width: 100%;
+    }
+
+    .header-a {
+      height: 200px;
+      display: flex;
+      align-items: center;
+    }
+
+    .header-a a {
+      text-decoration: none;
+      color: black;
+      margin-left: 20px;
+    }
+
+    .header-a .active {
+      border-bottom: 2px solid #000;
+    }
+
+    .logo a {
+      color: pink;
+      margin-right: 90px;
+      text-decoration: none;
+    }
+
+    .search-bar {
+      margin-left: auto;
+      margin-right: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .search-input {
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-left: 5px;
+    }
+
+    main {
+      background-image: url(bg.jpeg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .main {
+      color: white;
+      height: 514px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .btn {
+      border: 3px solid white;
+      width: 80px;
+      height: 30px;
+      text-align: center;
+      margin: auto;
+      margin-top: 10px;
+    }
+
+    .btn a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+
+    .btn button:hover {
+      background-color: transparent;
+      color: white;
+    }
+
+    .bli-online-button {
+      color: white;
+      border: 2px solid white;
+      background-color: transparent;
+      padding: 10px 20px;
+    }
+
+    .bli-online-button:hover {
+      cursor: pointer;
+    }
+
+    .kreu {
+      margin-top: auto;
+      margin-bottom: auto;
+      text-align: center;
+    }
+
+    .footer {
+      height: 250px;
+    }
+
+    .About-tittle {
+      padding-top: 100px;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-bottom: 30px;
+    }
+
+    .About-tittle h1 {
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    .About-paragraph {
+      text-align: center;
+    }
+
+    .About-paragraph p {
+      padding-bottom: 20px;
+      margin-top: 5px;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: medium;
+    }
+
+
+    .item1, .item2, .item3 {
+      box-sizing: border-box;
+      display: inline-block;
+      width: 33%;
+      text-align: center;
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+    .item1 img{
+      width: 110px;
+    }
+    .item2 img{
+      width: 110px;
+    }
+    .item3 img{
+      width: 110px;
+    }
+     
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header-text">
+      <p>Hey Bukuroshe, Mirë se erdhe në ENRADES</p>
+    </div>
+    <div class="hr"></div>
+    <div class="header-a">
+      <div class="logo">
+        <a href="./Kreu.html">
+          <h1>ENRADES</h1>
+        </a>
+      </div>
+      <a href="./Kreu.html" class="active">Kreu</a>
+      <a href="./about.html">Kush jemi</a>
+      <a href="">Shop</a>
+      <a href="Kontakti.html">Na Kontaktoni</a>
+
+      <!-- Add space between Na Kontaktoni and the search bar -->
+      <div style="margin-right: 20px;"></div>
+
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <span>Search:</span>
+        <input type="text" class="search-input" placeholder="Type here...">
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="main">
+      <div class="kreu">
+        <div class="titulli">
+          <h1>Zbulo Koleksionin e Fundit</h1>
+        </div>
+        <div class="txt">
+          <p>Për një lëkurë perfekte</p>
+        </div>
+        <button class="bli-online-button" onclick="window.location.href = 'Shop.html'" type="button">Bli Online</button>
+      </div>
+    </div>
+  </main>
+  <div class="About-tittle">
+    <h1>Cfare eshte Enrades?</h1>
+  </div>
+
+  <div class="About-paragraph">
+    <p>Enrades Cosmetics , është marka Shqiptare e kozmetikes. Objektivi ynë është të sjellim produkte inovative dhe<br>
+      moderne. Synojmë vazhdimisht, të krijojme produkte origjinale dhe cilësore, por gjithmonë të<br>përballueshme nga
+      vajzat Shqiptare</p>
+  </div>
+
+  <div class="rreth-nesh">
+    <div class="item1">
+      <img src="3_2.webp" alt="">
+      <h1>Produktet Enrades </h1>
+
+      Janë konceptuar për tu përdorur nga <br>profesioniste dhe të apasionuar pas makeupit.
+
+      Pigmentimi i larte dhe thjeshtësia<br> në sfumim ju japin mundesinë për realizuar grime cilësore dhe përformuese
+
+      për klientet tuaj apo thjesht për një ditë të gjatë punë.
+      <br><br><br><br>
+    </div>
+    <div class="item2" >
+      <img src="2_2.webp" alt="">
+      <h1>Trasporti</h1>
+
+      Shqipëri Tiranë 24h/ Rrethe 48h, Kosovë 5-7 Ditë, Maqedoni 7-10 Ditë, Europë 10 ditë-3 Javë
+
+      ARIFAT E DËRGESËS
+
+      Shqipëri Falas për blerje mbi 1500L,
+
+      Kosovë 3€, Maqedoni 4€, Europë 6€
+
+      MENYRA E PAGESËS
+
+      Në Shqipëri/Maqedoni mund të zgjidhni të paguani cash në momentin që merrni pakon ose me Kartë/Paypal. Në Europe
+      pagesa bëhet me Paypal/Westerunio
+    </div>
+    <div class="item3">
+      <img src="1_2.webp" alt="">
+      <h1>Siguria</h1>
+ggg
+      Të gjitha Produktet Enrades në shitje, rrespektojnë Ligjin 26/2017 të Republikës të Shqipërisë. Ato kalojnë
+      kontrolle rigoroze që garantojnë cilësinë dhe sigurinë e përbëresve.
+
+      CRUELTY FREE
+
+      Asnjë nga produktet Selen nuk Testohet mbi kafshë.
+
+      ILËSORE
+
+      Falë Eksperiences 10 Vjeçare të themelueses, Arsida Cerpja, Produktet Selen kanë cilësi maksimale dhe pigmentim
+      të lartë.
+    </div>
+
+  </div>
+
+  <div class="footer"></div>
+
+</body>
+
+</html
