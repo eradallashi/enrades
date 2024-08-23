@@ -1,0 +1,396 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+    overflow-x: hidden;
+  }
+
+
+html{
+  overflow-x: hidden;
+}
+  body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-text {
+    text-align: center;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 13px;
+  }
+
+  .hr {
+    margin-top: 12px;
+    border: 1px solid pink;
+    width: 100%;
+  }
+
+  .header-a {
+    height: 200px;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-a a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+  }
+
+  .header-a .active {
+    border-bottom: 2px solid #000;
+  }
+
+  .logo a {
+    color: pink;
+    margin-right: 90px;
+    text-decoration: none;
+  }
+
+  .search-bar {
+    margin-left: auto;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+
+  main {
+    background-image: url(bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .main {
+    color: white;
+    height: 514px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn {
+    border: 3px solid white;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .btn a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  .btn button:hover {
+    background-color: transparent;
+    color: white;
+  }
+
+  .bli-online-button {
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px 20px;
+  }
+
+  .bli-online-button:hover {
+    cursor: pointer;
+  }
+
+  .kreu {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+  }
+
+  .footer {
+    height: 250px;
+  }
+
+  .About-tittle {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+  }
+
+  .About-tittle h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: pink;
+  }
+
+  .About-paragraph {
+    text-align: center;
+  }
+
+  .About-paragraph p {
+    padding-bottom: 20px;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+  }
+
+  .container{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   align-self: center;
+
+
+  }
+  .item1, .item2, .item3 {
+
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    margin: auto;
+    width: 33%;
+    margin-top: 70px;
+
+  }
+  .item1 img{
+    width: 110px;
+   
+  }
+  .item2 img{
+    width: 110px;
+  }
+  .item3 img{
+    width: 110px;
+  }
+
+ 
+     
+  .hg {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  padding: 0 20px;
+ 
+}
+
+.flex-box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+
+}
+
+.flex-box2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #222222;
+    width: 657px;
+    color: white;
+
+}
+
+ .buton {
+  background-color: pink; 
+  border: none; 
+  color: white;
+  padding: 15px 32px; 
+  text-align: center; 
+  text-decoration: none; 
+  overflow-x: hidden;
+  font-size: 16px; 
+  margin: 10px 2px; 
+  border-radius: 8px; 
+  cursor: pointer; 
+  
+}
+
+
+.buton:hover {
+  background-color: #bb578c;
+}
+
+
+
+
+
+.info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 40px;
+  text-align: left;
+  width: 100%;
+
+
+}
+
+.infobox {
+  width: 20%;
+  padding-right: 100px;
+}
+
+.infobox1 {
+  width: 17%;
+  padding-right: 90px;
+}
+
+.infobox2 {
+  width: 15%;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.infobox3 {
+  width: 15%;
+  padding-right: 100px;
+  margin-right: 100px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  color: pink;
+  text-decoration: none;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  .item1, .item2, .item3 {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+ 
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .infobox, .infobox1, .infobox2, .infobox3 {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .search-bar {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .flex-box2 {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .flex-box2 div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .hg {
+    width: 100%;
+    padding: 0;
+  }
+  
+}
+@media (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
+
+  .header-a {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .header-text {
+    font-size: 10px;
+    height: auto;
+  }
+
+  .main {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .btn {
+    width: 60px;
+    height: 20px;
+  }
+
+  .container {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .item1, .item2, .item3 {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .info {
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .infobox, .infobox1, .infobox2, .infobox3 {
+    width: 100%;
+    padding: 5px 0;
+  }
+
+
+}

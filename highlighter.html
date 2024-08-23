@@ -16,7 +16,7 @@
 </style>
 <body>
     
-    <div style="display: inline-flex;  align-content: center;">  <!--It creates a flex container that allows other elements to flow horizontally alongside it and it centers lines of content along the cross-axis.  -->
+    <div style="display: inline-flex;  align-content: center;"> 
         <img src="highlighter.jpg" alt="img" height="700">
         <div>
             <div>
@@ -28,19 +28,18 @@
                     
 <br> 
                       <label for="quantity" style="color: rgb(239, 155, 224);">Quantity:</label>
-    <input type="number" id="quantity" name="quantity" min="1" value="1" style="  padding 10px 20px ; font-size: 16px;">
+    <input type="number" id="quantity" name="quantity" min="1" value="1" style="  padding :10px 20px ; font-size: 16px;">
     <hr>
    
                     <button onclick="showIngredients()">Përbërësit/Ingredients</button>
-                    <p id="ingredientsParagraph" style="display: none;">  <!-- e ben hidden -->
+                    <p id="ingredientsParagraph" style="display: none;">
                         Tealc, Mica, Magnesium Stearate, Trimethylsiloxysicilate, Cyclopentasiloxane, Caprylic/Capric, Triglyceride, C13-15 Alkane, Dimethicone, Dimethicone Crosspolymer, Phenoxythanol, Caprylyl glycol, Iron Oxides (CI 77491), IRON OXIDES (CI 77492), IRON OXIDES (CI 77499).
                     </p>
                     
                     <script>
                         function showIngredients() {
                             var paragraph = document.getElementById("ingredientsParagraph");
-                            paragraph.style.display = "block";   /* e shfaq */
-                        }
+                            paragraph.style.display = "block"; 
                     </script>
                       
                       <hr>
@@ -66,7 +65,7 @@
                        function dergesa() {
                            var paragraph = document.getElementById("kthimi");
                            paragraph.style.display = "block";
-                       }
+                       }}
                    </script>
                     
                     <hr>
@@ -87,4 +86,4 @@
                 
                 
                 </body>
-                </html>
+</html>
